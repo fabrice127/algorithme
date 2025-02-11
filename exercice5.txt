@@ -1,0 +1,26 @@
+Algorithme seconddegree
+variables:
+    a,b,c,det,x1,x2,x3,k,q:réels;
+Début
+    ecrire("tapez  a");
+    lire(a);
+    ecrire("tapez b);
+    lire(b);
+    ecrire("tapez c);
+    lire(c);
+    det<-(b*b)-(4*a*c);
+    Si(det<0)alors
+        k<-(-b)/2*a;
+        q<-sqrt(-det)/2*a;
+        ecrire("les solutions sont",k,"+",q,"i et",k,"-",q,"i");
+        Sinon Si (det>0)alors
+                x1<- (-b-sqrt(det)/2*a);
+                x2<- (-b+sqrt(det)/2*a);
+                ecrire("les solutions sont:",x1,x2);
+                Sinon
+                    x3<-(-b/2*a);
+                    ecrire("la solution est",x3);
+            FinSi
+    FinSi
+Fin
+

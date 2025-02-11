@@ -1,0 +1,13 @@
+Algorithme sommemoyenne
+variables:
+    N1,N2,S,M:réels;
+Début
+    ecrire("entrer votre note");
+    lire(N1);
+    ecrire("entrer votre note");
+    lire(N1);
+    S<-N1+N2;
+    M<-S/2;
+    ecrire("la somme de votre note est",S);
+    ecrire("votr moyenne est",M);
+Fin

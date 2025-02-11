@@ -1,0 +1,14 @@
+Algorithme signedeproduit
+variables:
+    A,B:réels;
+Début
+    ecrire("tapez un nombre");
+    lire(A);
+    ecrire("tapez un nombre");
+    lire(B);
+    Si((A<0) ET (B>0))*signe contaire*alors
+        ecrire("leur produit est négatif");
+        Sinon
+            ecrire("leur produit est positif");
+    Fin Si
+Fin

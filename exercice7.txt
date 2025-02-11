@@ -1,0 +1,19 @@
+Algorithe maximum
+Variables:
+    A,B,C,max:Réels;
+Début
+    ecrire("donner la valeur de A);
+    lire(A);
+    ecrire("donner la valeur de B);
+    lire(B);
+    ecrire("donner la valeur de C);
+    lire(C);
+    Si(A>B)alors
+        max<-A;
+        Sinon
+            max<-B;
+    FinSi
+    Si(max<C)alors
+        max<-C;
+    FinSi
+Fin

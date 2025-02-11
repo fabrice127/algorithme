@@ -1,0 +1,14 @@
+Algorithme interchangevaleur
+variables:
+    a,b,temp:réels;
+Début
+    ecrire("tapez la valeur de a");
+    lire(a);
+    ecrire("tapez la valeur de b");
+    lire(b);
+    temp  <- a;
+    a <- b;
+    b <-temp;
+    ecrire(a);
+    ecrire(b);
+Fin

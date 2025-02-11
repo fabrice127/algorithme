@@ -1,0 +1,14 @@
+Algorithme calculpgcd
+Variables:
+    N1,N2,r,pgcd:réels;
+Début
+    ecrire("tapez N1");
+    lire(N1);
+    r<-N1%N2;
+    TantQue(r<>0)faire
+        N1<-N2;
+        N2<-r;
+        r<-N1%N2;
+    FinTantQue
+    pgcd<-N2;
+Fin

@@ -1,0 +1,12 @@
+Algorithme diviseurs
+Variables:
+    n,d,i:réels;
+Début
+    ecrire("tapez un nombre");
+    lire(n);
+    Pour(i=1;i<=n;i++)
+        d=n%i;
+        Si(d=0)alors
+            ecrire(i);
+        FinSi
+    FinPour

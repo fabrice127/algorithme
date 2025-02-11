@@ -1,0 +1,15 @@
+algoritme signe
+variable:
+    n:réel;
+Début
+    ecrire("donner un nombre");
+    lire(n);
+    Si(n>0)alors
+        ecrire("ce nombre est positif");
+        Sinon Si(n<0)alors
+                ecrire("ce nombre est négatif");
+                Sinon
+                    ecrire("ce nombre est nul");
+              Fin Si
+    Fin Si
+Fin

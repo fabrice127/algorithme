@@ -1,0 +1,16 @@
+Algorithme factosomme
+Variables:
+    n,i,j,S,fact:réels;
+Début
+    ecrire("tapez la valeur de n");
+    lire(n);
+    S<-0;
+    Pour(i=1;i<=n;i++)
+        fact<-1;
+        Pour(j=1;j<=n;j++)
+            fact<-fact*j;
+        FinPour
+        S<-S+(1/fact);
+    FinPour
+Fin
+

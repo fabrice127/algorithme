@@ -1,0 +1,19 @@
+Algorithme testpremier
+Variables:
+    a,b,R:réels;
+Début
+    ecrire("tapez a");
+    lire(a);
+    ecrire("tapez b");
+    lire(b);
+    faire
+        R<-a%b;
+        a<-b;
+        b<-R;
+    TantQue(R<>0);
+    Si(a=1)alors
+        ecrire("a et b sont premier entre eux");
+        Sinon
+            ecrire("a et b ne sont pas premier entre eux);
+    FinSi
+Fin

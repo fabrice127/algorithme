@@ -1,0 +1,12 @@
+Algorithme calculsomme
+Variables:
+    n,i,S:réels;
+Début
+    ecrire("tapez un nombre);
+    lire(n);
+    S<-0;
+    Pour(i=1;i<=n;i++)
+        S<-S+(1/n);
+    FinPour
+    ecrire("la somme est",S);
+Fin

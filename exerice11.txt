@@ -1,0 +1,14 @@
+Algorithme factoriel
+Variables:
+    n,i,fact:réels;
+Début
+    ecrire("tapez un nombre");
+    lire(n);
+    fact<-1;
+    Pour(i=1;i<=n;i++)
+        fact<-fact*i;
+    FinPour
+    ecrire("n!=",fact);
+Fin
+
+

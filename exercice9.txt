@@ -1,0 +1,13 @@
+Algorithme pairs
+Variables:
+    n,i,r:Réels;
+Début
+    ecrire("entrez un nombre);
+    lire(n);
+    Pour(i=1;i<=n;i++)
+        r<-i%2;
+        Si(r=0)
+            ecrire(i);
+        FinSi
+    FinPour
+Fin

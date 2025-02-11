@@ -1,0 +1,10 @@
+Algorithme affichagedeN
+Variables:
+    i,n:Réels;
+Début
+    ecrire("tapez un nombre");
+    lire(n);
+    Pour(i=1;i<=n;i++)
+        ecrire(i);
+    FinPour
+Fin
